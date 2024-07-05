@@ -73,6 +73,8 @@ def game():
         pygame.draw.circle(screen, "purple", player_pos2, 20)
         pygame.draw.circle(screen, "purple", player_pos3, 20)
 
+        pygame.draw.circle(screen, "red" , maçapos, 20)
+
         keys = pygame.key.get_pressed()
         
         if keys[pygame.K_w] :
@@ -155,15 +157,6 @@ def game():
                     hehe = 0
 
 
-        # if keys[pygame.K_d] :
-        #     counter+= 1
-        #     if counter % 20 == 0:
-
-        #         if hehe==0:
-        #             player_pos3.y = player_pos1.y
-        #             player_pos3.x = player_pos1.x + 40
-        #             pygame.time.delay(100)
-        #             hehe = 1
         # player= [player_pos1,player_pos2,player_pos3]
 
 
@@ -183,57 +176,6 @@ def game():
         #             player_pos1.x = player_pos2.x + 40
         #             pygame.time.delay(100)
         #             hehe = 0
-
-        # if keys[pygame.K_s] :
-        #     counter+= 1
-        #     if counter % 20 == 0:
-        #         if hehe==0:
-        #             player_pos3.y = player_pos1.y + 40
-        #             player_pos3.x = player_pos1.x
-        #             pygame.time.delay(100)
-        #             hehe = 1
-        #         elif hehe==1:   
-        #             player_pos2.y = player_pos3.y + 40
-        #             player_pos2.x = player_pos3.x 
-        #             pygame.time.delay(100)
-        #             hehe = 2
-        #         elif hehe == 2:
-        #             player_pos1.y = player_pos2.y  + 40
-        #             player_pos1.x = player_pos2.x 
-        #             pygame.time.delay(100)
-        #             hehe = 0
-    
-        # if keys[pygame.K_a] :
-        #     counter+= 1
-        #     if counter % 20 == 0:
-        #         if hehe==0:
-        #             player_pos3.y = player_pos1.y
-        #             player_pos3.x = player_pos1.x - 40
-        #             pygame.time.delay(100)
-        #             hehe = 1
-        #         elif hehe==1:   
-        #             player_pos2.y = player_pos3.y 
-        #             player_pos2.x 
-
-        #             hehe = 2
-        #         elif hehe == 2:
-        #             player_pos1.y = player_pos2.y 
-        #             player_pos1.x = player_pos2.x - 40
-        #             pygame.time.delay(100)
-        #             hehe = 0
-
-        #             player_pos2.x = player_pos3.x - 40
-        #             pygame.time.delay(100)
-        #             hehe = 2
-        #         elif hehe == 2:
-        #             player_pos1.y = player_pos2.y 
-        #             player_pos1.x = player_pos2.x - 40
-        #             pygame.time.delay(100)
-        #             hehe = 0
-
-
-            
-
 
         # player= [player_pos1,player_pos2,player_pos3]
 
